@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ProductCart from './ProductCart';
-import { productAPI, cartAPI } from '../services/api.js';
+import { productAPI, cartAPI } from '../Services/api.js';
 
 function ProductList({ user }) {
   const [products, setProducts] = useState([]);
