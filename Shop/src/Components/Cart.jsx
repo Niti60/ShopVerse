@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { cartAPI } from '../services/api';
+import { cartAPI } from '../Services/api';
 
 function Cart({ onCartUpdate }) {
   const [cart, setCart] = useState(null);
