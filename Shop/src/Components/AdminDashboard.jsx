@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from './ProductCart';
 import ProductForm from './ProductForm';
-import { productAPI } from '../services/api';
+import { productAPI } from '../Services/api';
 
 function AdminDashboard() {
   const [products, setProducts] = useState([]);
