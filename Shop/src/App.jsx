@@ -5,7 +5,7 @@ import Login from './Components/Login';
 import ProductList from './Components/ProductList';
 import Cart from './Components/Cart';
 import AdminDashboard from './Components/AdminDashboard';
-import { authAPI } from './services/api';
+import { authAPI } from './Services/api';
 import './App.css';
 import Home from './Page/Home';
 
